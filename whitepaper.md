@@ -267,3 +267,14 @@ Whenever a drastic speed improvement is proposed, the security of it has to be p
 
 ### Advantages
 The usage of CRC256 in favor of Blake2b allows to process 50GB/s on an average low-end server CPU, per thread. This allows to hashing 2.2 billion transactions per second (2.2GTPS), which is necessary to validate a block hash quickly or to mine a block without having to wait for the block template to be processed. Validators can therefore validate much quicker (~50x) than they could with Blake2b or other fast hashing functions, allowing them to synchronize more easily.
+
+## Roadmap
+| Year | Quarter | Content |
+| --- | --- | --- |
+| 2019 | Q3 | Kegcoin rewrite Development |
+| 2019 | Q4 | Rewrite Testnet |
+| 2020 | Q1 | Rewrite Release |
+| 2020 | Q2 | Webwallet, Python libary|
+| 2020 | Q3 | Mobile Wallet |
+| 2020 | Q4 | Hardware wallet |
+| 2021 | Q1 | Exchange (Alpha) |
